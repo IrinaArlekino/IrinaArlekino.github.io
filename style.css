@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 320px;
+    padding: 15px 0px;
+    background-color: #FFF8DC;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    padding: 15px 0px;
+    background-color: #FFF8DC;
+}
+body{
+    background-image:url(фон4.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@keyframes example {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.8); }
+    70% { transform: rotate(30deg); }
+    100% { transform: skew(20deg, 10deg);}
+}
+#logotip{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border: 5px double #FF0000;
+    border-radius: 100cap;
+    animation: example 4s 4;
+}
+#name{
+    width: 480px;
+    height: 40px;
+    margin: 15px;
+    border: 5px double #FF0000 ;
+    border-radius: 20cap;
+    padding: 10px;
+}
+#kukli{
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    border: 5px double #FF0000;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+nav{
+    display: flex;
+    justify-content: center;
+    border: 5px double #FF0000;
+    margin: 10px;
+}
+.bubble1{
+    width: 190px;
+    height: 190px;
+    border: 5px dotted #FF4500;
+    border-radius: 100px;
+}
+.bubble{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 20px 0px;
+}
+.z:hover{
+    transform: scale(2);
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.foto{
+    border: 5px solid #B22222;
+    border-radius: 32px;
+}
+#foto1{
+    width: 415px;
+    height: 540px;
+    float: left;
+    margin-right: 15px;
+}
+.o_sebe{
+    padding-left: 10px;
+}
+#nachalo{
+    margin-left: 10px;
+}
+#foto2{
+    width: 600px;
+    height: 540px;
+    float: right;
+    margin: 15px;
+}
+.informazia{
+    padding-right: 10px;
+}
+#praznik{
+    margin-right: 10px;
+}
+.personag{
+    width: 380px;
+    height: 495px;
+    border: 5px solid #FF4500;
+    border-radius: 32px;
+}
+.narjadi{
+    width: 350px;
+    height: 455px;
+    border: 5px solid #FF4500;
+    border-radius: 32px;
+}
+.stoimost{
+    width: 300px;
+    height: 390px;
+    border: 5px solid #FF4500;
+    border-radius: 32px;
+}
+.otzivi{
+    width: 250px;
+    height: 325px;
+    border: 5px solid #FF4500;
+    border-radius: 32px;
+}
+.r{
+    margin: 15px 0px 15px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#VK{
+    width: 50px;
+    height: 50px;
+    background-image: url(vk.png);
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.n:hover{
+    transform: scale(1.5);
+}
+.g:hover{
+    transform: rotate(20deg);
+}
+
+h1{
+    color: #FF0000;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+
+}
+h2{
+    font-size: 15;
+    margin: 15px;
+}
+h3{
+    font-size: 20;
+    margin: 15px;
+}
